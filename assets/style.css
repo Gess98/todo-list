@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    font-size: 90px;
+    background-color: #efeaea !important;
+    color: #333 !important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.navbar{
+    background-color: #a6e6fb;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.navbar .navbar-nav {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.navbar-brand {
+    color: #333;
+    font-family: 'Lora', serif;
+    font-size: 30px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-nav a {
+    color: #333;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.navbar-nav a:first-child {
+    margin-left: 0;
+}
+
+.navbar a:hover {
+    color: #fff;
+    transition: 0.2s linear;
+}
+
+main {
+    min-height: calc(100vh - 224px);
+}
+
+.main-section {
+    background-color: #fff;
+}
+
+.add-form {
+    margin-bottom: 15px;
+}
+
+.task {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.task a {
+    text-decoration: none;
+    padding: 5px;
+    color: #333;
+}
+
+.task a:hover {
+    color: #a6e6fb;
+    transition: 0.2s linear;
+}
+
+.tasks-info {
+    display: flex !important;
+    text-align: center;
+}
+
+.tasks-info span {
+    padding: 5px !important;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #a6e6fb;
+    margin-top: 15px;
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.company-rights {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.company-rights a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: #333;
+}
+
+/* ABOUT */
+
+.about-header-block {
+    display: flex !important;
+    justify-content: center  !important;
+}
+
