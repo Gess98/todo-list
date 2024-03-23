@@ -1,5 +1,5 @@
 <?php 
-require_once("../todo list/settings/db.php");
+//require_once("../settings/db.php");
 // Вывод всех записей из одной таблицы
 $tasks = taskAll('tasks');
 

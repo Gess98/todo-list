@@ -1,5 +1,6 @@
 <?php
-    require_once('controllers/contacts-form.php')
+    require_once('../controllers/contacts-form.php');
+    require_once "../settings/path.php";
 ?>
 
 <!DOCTYPE html>
@@ -8,18 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="../assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
 <?php 
-    require_once('include/header.php');
-?>
-
-<?php
-    echo $_SERVER['REQUEST_METHOD'];
-    var_dump($_POST);
+    require_once('../include/header.php');
 ?>
 <!-- Конец header -->
 
@@ -49,7 +45,7 @@
     </main> <!-- Конец main-section -->
 
 <?php 
-    require_once('include/footer.php')
+    require_once('../include/footer.php');
 ?>
 <!-- Конец footer -->
 

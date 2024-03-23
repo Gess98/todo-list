@@ -1,6 +1,7 @@
 <?php 
     require_once('settings/db.php');
-    require_once('controllers/task-controll.php')
+    require_once('controllers/task-controll.php');
+    require_once('settings/path.php');
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +19,7 @@
     require_once('include/header.php')
 ?>
 <!-- Конец header -->
+
 
     <main>
         <section class="container add-section">

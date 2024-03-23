@@ -1,14 +1,15 @@
 <header class="header">
     <nav class="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="<?php echo BASE_URL;?>">
                 ToDo
             </a>
             <div class="navbar-nav">
-                <a class="nav-link"href="index.php">На главную</a>
-                <a class="nav-link" href="about.php">О нас</a>
-                <a class="nav-link" href="contact.php">Связаться</a>
+                <a class="nav-link" href="<?php echo BASE_URL;?>">На главную</a>
+                <a class="nav-link" href="<?php echo BASE_URL . "pages/about.php";?>">О нас</a>
+                <a class="nav-link" href="<?php echo BASE_URL . "pages/contact.php";?>">Связаться</a>
             </div>
         </div>
     </nav>
 </header>
+

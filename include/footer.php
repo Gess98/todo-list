@@ -2,9 +2,9 @@
     <div class="container-fluid">
         <div class="container">
             <div class="footer-navigation">
-                <div class="footer-item"><a href="index.php">На главную</a></div>
-                <div class="footer-item"><a href="about.php">О нас</a></div>
-                <div class="footer-item"><a href="contact.php">Связаться</a></div>
+                <div class="footer-item"><a href="<?php echo BASE_URL;?>">На главную</a></div>
+                <div class="footer-item"><a href="<?php echo BASE_URL . "pages/about.php";?>">О нас</a></div>
+                <div class="footer-item"><a href="<?php echo BASE_URL . "pages/contact.php";?>">Связаться</a></div>
             </div>
         </div>
         <div class="container">
