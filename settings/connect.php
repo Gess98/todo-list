@@ -1,6 +1,6 @@
 <?php
 $dbname = "todolist";
-$host = "localhost";
+$host = "MariaDB-11.2";
 $user = 'root';
 $password = '';
 $charset = 'utf8';

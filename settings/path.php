@@ -1,3 +1,3 @@
 <?php
-    define('BASE_URL', 'http://localhost/todo_list/');
+    define('BASE_URL', 'https://todo-list/');
 ?>
